@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Assignment</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h2>CALCULATOR</h2>
+  <hr>
+  <div class="main">
+    <div>
+      <input type="text" class="result" id="result">
+    </div>
+    <div class="top-btn-main">
+      <button class="top-bottom-btn" onclick="any_Number('%')">%</button>
+      <button class="top-bottom-btn"onclick="clear_Number()">C</button>
+      <button class="top-bottom-btn" onclick="any_Number('+')">+</button>
+    </div>
+    <div class="mid-btn-main">
+      <button class="mid-btn" onclick="any_Number('7')">7</button>
+      <button class="mid-btn" onclick="any_Number('8')">8</button>
+      <button class="mid-btn" onclick="any_Number('9')">9</button>
+      <button class="mid-btn" onclick="any_Number('-')">-</button>
+    </div>
+    <div class="mid-btn-main">
+      <button class="mid-btn" onclick="any_Number('4')">4</button>
+      <button class="mid-btn" onclick="any_Number('5')">5</button>
+      <button class="mid-btn" onclick="any_Number('6')">6</button>
+      <button class="mid-btn" onclick="any_Number('*')">x</button>
+    </div>
+    <div class="mid-btn-main">
+      <button class="mid-btn" onclick="any_Number('1')">1</button>
+      <button class="mid-btn" onclick="any_Number('2')">2</button>
+      <button class="mid-btn" onclick="any_Number('3')">3</button>
+      <button class="mid-btn" onclick="any_Number('/')">÷</button>
+    </div>
+    <div class="bottom-btn-main">
+      <button class="top-bottom-btn" onclick="any_Number('0')">0</button>
+      <button class="top-bottom-btn" onclick="any_Number('.')">.</button>
+      <button class="top-bottom-btn" class="mid-btn" onclick="show_Result()">=</button>
+    </div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
